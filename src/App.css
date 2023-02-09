@@ -1,0 +1,87 @@
+.full-screen {
+  margin: 10px auto;
+  width: 400px;
+  height: 800px;
+  border: 15px solid black;
+  border-radius: 30px;
+}
+.full-screen__screen {
+  border: 1px solid red;
+  width: 90%;
+  height: 250px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.screen__placement {
+  display: flex;
+  justify-content: flex-end;
+}
+.screen__placement span {
+  display: flex;
+  align-self: flex-end;
+  margin: 16px;
+}
+.full-screen__screen-calculationState {
+  position: relative;
+  height: 80%;
+  font-size: 25px;
+  font-weight: 600;
+}
+.full-screen__screen-calculationState input {
+  width: 90%;
+  display: flex;
+  position: absolute;
+  border: none;
+  padding: 0px 16px;
+  top: 75%;
+  text-align: right;
+ 
+
+  font-size: 25px;
+  font-weight: 600;
+}
+.full-screen__screen-calculatedState {
+  height: 20%;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+
+
+
+.full-screen__button-box {
+  border: 1px solid red;
+  width: 90%;
+  height: 400px;
+  margin: 20px;
+  padding: 20px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn {
+  width: 55px;
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 0px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  font-size: 30px;
+  border: none;
+}
+.equal-btn {
+  background-color: rgb(81, 190, 81);
+  display: flex;
+  width: 120px;
+  margin: 0px 30px;
+}
+.cross-btn {
+  background-color: rgb(225, 95, 95);
+}
